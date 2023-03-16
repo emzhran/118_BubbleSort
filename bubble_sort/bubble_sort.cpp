@@ -60,8 +60,11 @@ void display() {
 	}
 	cout << endl;
 }
-int main()
-{
+int main(){
+	input();
+	unsorted();
+	bubblesortarray();
+	display();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
