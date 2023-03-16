@@ -39,6 +39,17 @@ void bubblesortarray() {
 	}
 }
 
+void unsorted() {
+	cout << endl;
+	cout << "=====================" << endl;
+	cout << "Masukkan elemen array" << endl;
+	cout << "====================" << endl;
+	for (int j = 0; j < n; j++) {
+		cout << a[j] << endl;
+	}
+	cout << endl;
+}
+
 int main()
 {
 }
