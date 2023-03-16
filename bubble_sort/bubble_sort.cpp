@@ -50,6 +50,16 @@ void unsorted() {
 	cout << endl;
 }
 
+void display() {
+	cout << endl;
+	cout << "================================" << endl;
+	cout << "Elemen array yang belum tersusun" << endl;
+	cout << "================================" << endl;
+	for (int j = 0; j < n; j++) {
+		cout << a[j] << endl;
+	}
+	cout << endl;
+}
 int main()
 {
 }
